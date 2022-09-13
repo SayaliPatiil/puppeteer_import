@@ -40,15 +40,7 @@ async function download() {
     );
     return;
   }
-  if (
-    process.env.NPM_CONFIG_PUPPETEER_SKIP_DOWNLOAD ||
-    process.env.npm_config_puppeteer_skip_download
-  ) {
-    logPolitely(
-      '**INFO** Skipping browser download. "PUPPETEER_SKIP_DOWNLOAD" was set in npm config.'
-    );
-    return;
-  }
+  
   if (
     process.env.NPM_PACKAGE_CONFIG_PUPPETEER_SKIP_DOWNLOAD ||
     process.env.npm_package_config_puppeteer_skip_download
