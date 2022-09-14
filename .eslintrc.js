@@ -32,6 +32,12 @@ module.exports = {
       {
         getWithoutSet: false,
         setWithoutGet: false,
+        getWithoutSet: false,
+        setWithoutGet: false,
+        getWithoutSet: false,
+        setWithoutGet: false,
+        getWithoutSet: false,
+        setWithoutGet: false
       },
     ],
     'new-parens': 2,

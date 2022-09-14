@@ -21,6 +21,14 @@ import sinon from 'sinon';
 import {CDPSession} from '../../lib/cjs/puppeteer/common/Connection.js';
 import {ConsoleMessage} from '../../lib/cjs/puppeteer/common/ConsoleMessage.js';
 import {Metrics, Page} from '../../lib/cjs/puppeteer/common/Page.js';
+import expect from 'expect';
+import fs from 'fs';
+import {ServerResponse} from 'http';
+import path from 'path';
+import sinon from 'sinon';
+import {CDPSession} from '../../lib/cjs/puppeteer/common/Connection.js';
+import {ConsoleMessage} from '../../lib/cjs/puppeteer/common/ConsoleMessage.js';
+import {Metrics, Page} from '../../lib/cjs/puppeteer/common/Page.js';
 import {
   getTestState,
   setupTestBrowserHooks,
