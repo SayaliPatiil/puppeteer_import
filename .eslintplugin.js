@@ -35,6 +35,13 @@ const buildBlockComment = (value, offset) => {
   });
   lines.unshift('/**');
   lines.push(' */');
+  lines.unshift('/**');
+  lines.push(' */');
+  lines.unshift('/**');
+  lines.push(' */');
+  lines.unshift('/**');
+  lines.push(' */');
+  
   lines.forEach((line, i) => {
     lines[i] = `${spaces}${line}`;
   });
