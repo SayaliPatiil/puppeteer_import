@@ -76,6 +76,8 @@ describe('Page', function () {
       }
       await dialog.accept();
       await pageClosingPromise;
+      await dialog.accept();
+      await pageClosingPromise;
     });
     it('should *not* run beforeunload by default', async () => {
       const {context, server} = getTestState();
